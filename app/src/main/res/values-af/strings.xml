@@ -704,8 +704,6 @@
     <string name="btwatchdog_summary">Skakel asb die foon se bluetooth af vir een sekonde Indien geen verbinding met die pomp moontlik is nie. Dit mag help vir sommige selfone waar die bluetooth stapel vries.</string>
     <string name="DexcomG5">DexcomG5 App (gelapte)</string>
     <string name="dexcomg5_nsupload_title">BG data oplaai na NS</string>
-    <string name="bgsource_upload">G5 oplaai instellings</string>
-    <string name="poctech_upload">Poctech oplaai instellings</string>
     <string name="wear_detailed_delta_title">Wys gedetailleerde delta</string>
     <string name="wear_detailed_delta_summary">Wys delta met een meer desimale plek</string>
     <string name="smbmaxminutes_summary">Maks minute van basale beperk SMB tot</string>
@@ -846,7 +844,6 @@
     <string name="data_choices">Data keuses</string>
     <string name="fabric_upload">Fabric Upload</string>
     <string name="allow_automated_crash_reporting">Laat outomatiese Foutverslagdoening en kenmerk data stuur na die ontwikkelaars via die fabric.io diens.</string>
-    <string name="g5appnotdetected">Werk asseblief jou G5 toepassing na ondersteunde weergawe</string>
     <string name="start_activity_tt">Begin aktiwiteit TT</string>
     <string name="start_eating_soon_tt">Begin eet gou TT</string>
     <string name="temptargetshort">TT</string>
