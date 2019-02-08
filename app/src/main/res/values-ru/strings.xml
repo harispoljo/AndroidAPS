@@ -704,8 +704,6 @@
     <string name="btwatchdog_summary">Выключает bluetooth телефона на одну секунду, если подключение к помпе невозможно. Это помогает на тех телефонах, где зависает модуль bluetooth.</string>
     <string name="DexcomG5">Приложение Dexcom (пропатченное)</string>
     <string name="dexcomg5_nsupload_title">Загрузить данные СК в Nightscout</string>
-    <string name="bgsource_upload">Настройки загрузки c G5</string>
-    <string name="poctech_upload">Настройка загрузки с Poctech</string>
     <string name="wear_detailed_delta_title">Показать подробно дельту</string>
     <string name="wear_detailed_delta_summary">Показать дельту еще с одним десятичным знаком</string>
     <string name="smbmaxminutes_summary">Верхний лимит минут базала на SMB</string>
@@ -846,7 +844,6 @@
     <string name="data_choices">Отбор данных</string>
     <string name="fabric_upload">Загрузка отчета для разработчиков</string>
     <string name="allow_automated_crash_reporting">Разрешить отправлять сообщения о неполадках и данные об использовании опций разработчикам при помощи сервиса fabric.io.</string>
-    <string name="g5appnotdetected">Пожалуйста обновите ваше приложение G5 до поддерживаемой версии</string>
     <string name="start_activity_tt">Включить временную цель TT Нагрузка</string>
     <string name="start_eating_soon_tt">Включить временную цель TT Скорый прием пищи</string>
     <string name="temptargetshort">Временная цель (TT)</string>
