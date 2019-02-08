@@ -710,8 +710,6 @@
     <string name="btwatchdog_summary">Изключва Bluetooth на телефона за една секунда, ако няма връзка с помпата. Това може да помогне на някои телефони, където Bluetooth блокира.</string>
     <string name="DexcomG5">Dexcom G5 приложение (модифицирано)</string>
     <string name="dexcomg5_nsupload_title">Качвай данните за КЗ в NS</string>
-    <string name="bgsource_upload">G5 настройки за качване</string>
-    <string name="poctech_upload">Poctech настройки за качване</string>
     <string name="wear_detailed_delta_title">Показвай подробна делта</string>
     <string name="wear_detailed_delta_summary">Показвай делта с още един десетичен знак</string>
     <string name="smbmaxminutes_summary">Максимални минути за ограничаване на базала от SMB</string>
@@ -852,7 +850,6 @@
     <string name="data_choices">Избор на данни</string>
     <string name="fabric_upload">Качване на статистики във Fabric</string>
     <string name="allow_automated_crash_reporting">Позволява автоматично изпращане на данни за грешки и статистически данни до разработчиците чрез услугата fabric.io .</string>
-    <string name="g5appnotdetected">Моля обновете G5 приложението до поддържана версия.</string>
     <string name="start_activity_tt">Старт на вр.цел за физ. активност</string>
     <string name="start_eating_soon_tt">Старт на вр. цел за Eating soon</string>
     <string name="temptargetshort">Вр.цел</string>
