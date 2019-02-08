@@ -563,6 +563,7 @@
     <string name="danar_bluetooth_status">Stav Bluetooth</string>
     <string name="nav_about">O aplikácii</string>
     <string name="smscommunicator_missingsmspermission">Chýbajúce povolenie SMS príkazov</string>
+    <string name="smscommunicator_missingphonestatepermission">Chýba oprávnenia pre zisťovanie stavu telefónu</string>
     <string name="xdripstatus_settings">Stav z xDripu (hodinky)</string>
     <string name="xdripstatus">Stavový riadok xDripu (hodinky)</string>
     <string name="xdripstatus_shortname">XDS</string>
@@ -710,8 +711,6 @@
     <string name="btwatchdog_summary">Vypne na 1 sekundu Bluetooth v telefóne, pokiaľ se nedarí pripojiť k pumpe. Môže to pomôcť pri telefónoch, ktoré majú problémy s BT.</string>
     <string name="DexcomG5">DexcomG5 aplikácia (upravená)</string>
     <string name="dexcomg5_nsupload_title">Nahrávať glykémie do NS</string>
-    <string name="bgsource_upload">Nastavenie nahrávania z G5</string>
-    <string name="poctech_upload">Nastavenie nahrávania z Poctech</string>
     <string name="wear_detailed_delta_title">Zobrazovať detailné zmeny</string>
     <string name="wear_detailed_delta_summary">Zobrazovať rozdiel s jedným desatinným miestom naviac</string>
     <string name="smbmaxminutes_summary">Maximálny počet minút bazálu, ku ktorým se limituje SMB</string>
@@ -852,7 +851,6 @@
     <string name="data_choices">Možnosti dát</string>
     <string name="fabric_upload">Odosielanie do Fabric</string>
     <string name="allow_automated_crash_reporting">Automatické odosielanie chýb aplikácie a štatistiky používania vývojárom pomocou služby fabric.io.</string>
-    <string name="g5appnotdetected">Prosím aktualizujte G5 aplikáciu na podporovanú verziu</string>
     <string name="start_activity_tt">Spustiť Dočasný cieľ Aktivita</string>
     <string name="start_eating_soon_tt">Spustiť Dočasný cieľ Blížiace sa jedlo</string>
     <string name="temptargetshort">DC</string>
