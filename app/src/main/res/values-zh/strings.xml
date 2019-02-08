@@ -702,8 +702,6 @@
     <string name="btwatchdog_summary">如果没有连接到泵，关闭手机的蓝牙一秒钟再自动打开。这在一些蓝牙堆栈僵死的手机上是有帮助的,</string>
     <string name="DexcomG5">DexcomG5 app (补丁)</string>
     <string name="dexcomg5_nsupload_title">将 数据血糖数据上传到 NS服务器</string>
-    <string name="bgsource_upload">G5 上传设置</string>
-    <string name="poctech_upload">Poctech 上传设置</string>
     <string name="wear_detailed_delta_title">显示详细的增量</string>
     <string name="wear_detailed_delta_summary">增量再多显示一个小数位</string>
     <string name="smbmaxminutes_summary">基础率的最大分钟数限制SMB微型大剂量到</string>
@@ -844,7 +842,6 @@
     <string name="data_choices">数据选择</string>
     <string name="fabric_upload">通过Fabric上传</string>
     <string name="allow_automated_crash_reporting">允许通过fabric.io服务将自动崩溃报告和功能使用数据发送给开发人员。</string>
-    <string name="g5appnotdetected">请将您的 G5 app更新为支持的版本</string>
     <string name="start_activity_tt">开始运动临时目标</string>
     <string name="start_eating_soon_tt">开始很快吃饭TT(临时目标)</string>
     <string name="temptargetshort">TT(临时目标)</string>
