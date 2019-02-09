@@ -768,7 +768,6 @@
     <string name="combo_error_bolus_verification_failed">Entrega del bolo y verificación del historial de la bomba falló, por favor, revise la bomba. Si un bolo fue puesto por la bomba, se añadirá a los tratamientos en la próxima conexión a la bomba.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">No hay suficiente insulina en el depósito para emitir bolo</string>
     <string name="extendedbolusdeliveryerror">Error al emitir bolo extendido</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Bomba Insight</string>
     <string name="status_no_colon">Estado</string>
     <string name="changed">Modificado</string>
