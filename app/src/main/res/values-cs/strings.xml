@@ -769,7 +769,6 @@
     <string name="combo_error_bolus_verification_failed">Podání bolusu a kontrola historie pumpy selhala. Zkontrolujte pumpu. Pokus bolus proběhl, načte se při příštím připojení automaticky.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Nedostatek inzulínu pro takovýto bolus</string>
     <string name="extendedbolusdeliveryerror">Chyba spuštění extended bolusu</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Insight</string>
     <string name="status_no_colon">Stav</string>
     <string name="changed">Změněno</string>
@@ -1102,8 +1101,6 @@
     <string name="extended_bolus">Prodloužený bolus</string>
     <string name="multiwave_bolus">Duální bolus</string>
     <string name="eb_formatter">%1$.2f / %2$.2f U %3$d min</string>
-    <string name="enable_tbr_over_notification">Povolit oznámení konce doč. bazálu</string>
-    <string name="disable_tbr_over_notification">Zakázat oznámení konce doč. bazálu</string>
     <string name="refresh">Obnovit</string>
     <string name="description_pump_insight_local">Integrace pro pumpu Accu-Chek Insight</string>
     <string name="not_inserted">Není vloženo</string>
