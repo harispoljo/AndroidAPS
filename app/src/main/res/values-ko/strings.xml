@@ -767,7 +767,6 @@
     <string name="combo_error_bolus_verification_failed">Bolus를 주입하고 펌프 이력을 확인하는데 실패하였습니다. 펌프를 확인해보세요. 만약 Bolus 주입이 되었다면 펌프와 다음번 연결시 그 내용이 관리에 추가될 것입니다.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Bolus 주입 위한 인슐린이 주사기에 부족합니다.</string>
     <string name="extendedbolusdeliveryerror">확장Bolus 주입 에러</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Insight 펌프</string>
     <string name="status_no_colon">상태</string>
     <string name="changed">변경됨</string>
