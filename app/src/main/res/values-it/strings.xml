@@ -767,7 +767,6 @@
     <string name="combo_error_bolus_verification_failed">Erogare il bolo e la verifica di storia della pompa non è riuscita, si prega di controllare la pompa. Se è stato somministrato un bolo, si aggiungerà ai trattamenti durante il successivo collegamento alla pompa.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Poca insulina per erogare il bolo</string>
     <string name="extendedbolusdeliveryerror">Errore di avvio bolo esteso</string>
-    <string name="insightpump_shortname">Approfondimento</string>
     <string name="insightpump">Pompa di Insight</string>
     <string name="status_no_colon">Stato</string>
     <string name="changed">Cambia</string>
