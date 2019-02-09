@@ -775,7 +775,6 @@
     <string name="combo_error_bolus_verification_failed">Свързването с помпата и стартирането на болус се провали. Моля, проверете ръчно в историята на помпата доставен ли е болусът. Ако болусът е доставен, ще бъде добавен автоматично при следващото свързване с помпата.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Няма достатъчно инсулин в резервоара</string>
     <string name="extendedbolusdeliveryerror">Грешка при доставяне на удължен болус</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Помпа Insight</string>
     <string name="status_no_colon">Статус</string>
     <string name="changed">Променено</string>
