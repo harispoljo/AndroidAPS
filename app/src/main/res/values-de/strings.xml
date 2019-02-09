@@ -782,7 +782,6 @@ maxIOB = durchschnittlicher Essensbolus + 3 x maximale Basalrate</string>
     <string name="combo_error_bolus_verification_failed">Die Abgabe des Bolus und das Verifizieren der Pumpen-Historie ist fehlgeschlagen. Bitte überprüfe deine Pumpe. Falls ein Bolus abgeben wurde, wird dieser bei der nächsten Verbindung zu den Behandlungen hinzugefügt.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Nicht mehr genug Insulin im Reservoir für den Bolus</string>
     <string name="extendedbolusdeliveryerror">Fehler bei der Abgabe eines verzögerten Bolus</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Insight Pumpe</string>
     <string name="status_no_colon">Status</string>
     <string name="changed">Geändert</string>
@@ -1117,8 +1116,6 @@ Unerwartetes Verhalten.</string>
     <string name="extended_bolus">Verzögerter Bolus</string>
     <string name="multiwave_bolus">Multiwave-Bolus</string>
     <string name="eb_formatter">%1$.2f / %2$.2f U für %3$d min</string>
-    <string name="enable_tbr_over_notification">TBR-Vorrüber-Benachrichtigung aktivieren</string>
-    <string name="disable_tbr_over_notification">TBR-Vorrüber-Benachrichtigung deaktivieren</string>
     <string name="refresh">Aktualisieren</string>
     <string name="description_pump_insight_local">Pumpen-Integration für Accu-Chek Insight Pumpen</string>
     <string name="not_inserted">Nicht eingesetzt</string>
