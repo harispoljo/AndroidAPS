@@ -770,7 +770,6 @@ Aktif Karbonhidratın ne kadar hızlı sindirildiğine ve KŞ\'nin beklenenden d
     <string name="combo_error_bolus_verification_failed">Bolusun teslimi ve pompa tarihinin doğrulanması başarısız oldu. Lütfen pompanızı kontrol edin. Bir bolus verildiğinde, sonraki bağlantıdaki tedavilere eklenir.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Rezervuarda bolus için yeterli insülin yok</string>
     <string name="extendedbolusdeliveryerror">Yayım bolus gönderme hatası</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Insight Pompası</string>
     <string name="status_no_colon">Durum</string>
     <string name="changed">Değiştir</string>
