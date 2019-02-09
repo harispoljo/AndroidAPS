@@ -768,7 +768,6 @@
     <string name="combo_error_bolus_verification_failed">Nu s-a reușit livrarea bolusului și citirea istoricului pompei, verificați pompa. Dacă a fost totuși livrat un bolus, acesta va fi adăugat în lista tratamentelor în timpul următoarei conexiuni cu pompa.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Nu este suficientă insulină în rezervor</string>
     <string name="extendedbolusdeliveryerror">Eroare de livrare a bolusului extins</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Pompă Insight</string>
     <string name="status_no_colon">Stare</string>
     <string name="changed">Schimbat</string>
