@@ -769,7 +769,6 @@
     <string name="combo_error_bolus_verification_failed">Подача болюса и проверка истории помпы не состоялись, пожалуйста проверьте помпу. Если болюс был подан, он будет добавлен в назначения во время следующего соединения с помпой.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">В резервуаре недостаточно инсулина для болюса</string>
     <string name="extendedbolusdeliveryerror">Подача пролонгированного болюса не состоялась</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Помпа Insight</string>
     <string name="status_no_colon">Состояние</string>
     <string name="changed">Изменено</string>
