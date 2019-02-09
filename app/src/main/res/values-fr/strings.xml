@@ -770,7 +770,6 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="combo_error_bolus_verification_failed">L\'administration de bolus et la vérification de l\'historique de la pompe ont échoué. Vérifiez la pompe manuellement. Si un bolus a été administré, il sera ajouté aux traitements au cours de la prochaine connexion avec la pompe.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Pas assez d\'insuline dans le réservoir pour le bolus</string>
     <string name="extendedbolusdeliveryerror">Erreur administration bolus étendu</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Pompe Insight</string>
     <string name="status_no_colon">État</string>
     <string name="changed">Modifié</string>
