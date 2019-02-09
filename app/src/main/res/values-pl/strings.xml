@@ -770,7 +770,6 @@
     <string name="combo_error_bolus_verification_failed">Dostarczanie bolusa i sprawdzenia historii pompy nie powiodło się, Sprawdź pompę. Jeśli dostarczono bolusa, dane zostaną uzupełnione podczas następnego połączenia z pompą.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Za mało insuliny na bolus pozostało w zbiorniku</string>
     <string name="extendedbolusdeliveryerror">Błąd dostarczania bolusa przedłużonego</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Pompa Insight</string>
     <string name="status_no_colon">Status</string>
     <string name="changed">Zmieniono</string>
