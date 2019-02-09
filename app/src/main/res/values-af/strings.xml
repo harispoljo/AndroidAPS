@@ -769,7 +769,6 @@
     <string name="combo_error_bolus_verification_failed">Lewering van die bolus en verifiëring van die pomp se geskiedenis het misluk, Kontroleer asseblief die pomp. As \'n bolus afgelewer is, sal dit bygevoeg word om behandelings gedurende die volgende verbinding met die pomp.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Nie genoeg insulien vir bolus oor in reserwe</string>
     <string name="extendedbolusdeliveryerror">Verlengde bolus afleweringsfout</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Insight Pomp</string>
     <string name="status_no_colon">Status</string>
     <string name="changed">Verander</string>
