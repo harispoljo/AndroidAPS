@@ -768,7 +768,6 @@
     <string name="combo_error_bolus_verification_failed">Η έγχυση του bolus και η επαλήθευση του ιστορικού αντλίας απέτυχε, ελέγξτε την αντλία. Εάν έχει γίνει έγχυση bolus, θα προστεθεί στις θεραπείες κατά την επόμενη σύνδεση με την αντλία.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Δεν υπάρχει αρκετή ινσουλίνη στην αμπούλα για το bolus</string>
     <string name="extendedbolusdeliveryerror">Σφάλμα έγχυσης εκτεταμένου bolus</string>
-    <string name="insightpump_shortname">Insight</string>
     <string name="insightpump">Αντλία Insight</string>
     <string name="status_no_colon">Κατάσταση</string>
     <string name="changed">Τροποποίηση</string>
