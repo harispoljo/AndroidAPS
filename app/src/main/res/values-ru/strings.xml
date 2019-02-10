@@ -1078,6 +1078,13 @@ Context | Edit Context</string>
     <string name="confirm">Подтверждаю</string>
     <string name="mute_alert">Отключить звук</string>
     <string name="pump_alert">Оповещение помпы</string>
+    <string name="log_site_changes">Журнал изменений места установки</string>
+    <string name="log_tube_changes">Журнал замены трубки катетера</string>
+    <string name="log_battery_changes">Журнал замен батареи</string>
+    <string name="log_operating_mode_changes">Журнал изменений режима работы</string>
+    <string name="log_alerts">Журнал оповещений</string>
+    <string name="enable_tbr_emulation">Включить эмуляцию TBR</string>
+    <string name="enable_tbr_emulation_summary">Использовать пролонгированные болюсы вместо временных базалов TBR чтобы обойти лимит в 250%</string>
     <string name="profile_total">== ∑  %1$s ед</string>
     <string name="profile_ins_units_per_hout">Ед/ч</string>
     <string name="profile_carbs_per_unit">г/ед</string>
