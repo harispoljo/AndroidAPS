@@ -5,7 +5,7 @@
     <string name="treatmentssafety_maxbolus_title">Max. erlaubter Bolus [IE]</string>
     <string name="treatmentssafety_maxcarbs_title">Max. erlaubte Kohlenhydrate [g]</string>
     <string name="nav_preferences">Einstellungen</string>
-    <string name="nav_refreshtreatments">Erneure Behandlungen von Nightscout</string>
+    <string name="nav_refreshtreatments">Behandlungen von NS aktualisieren</string>
     <string name="nav_resetdb">Datenbanken zurücksetzen</string>
     <string name="reset_db_confirm">Möchtest du die Datenbank wirklich zurücksetzen?</string>
     <string name="nav_exit">Schließen</string>
@@ -782,6 +782,7 @@ maxIOB = durchschnittlicher Essensbolus + 3 x maximale Basalrate</string>
     <string name="combo_error_bolus_verification_failed">Die Abgabe des Bolus und das Verifizieren der Pumpen-Historie ist fehlgeschlagen. Bitte überprüfe deine Pumpe. Falls ein Bolus abgeben wurde, wird dieser bei der nächsten Verbindung zu den Behandlungen hinzugefügt.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">Nicht mehr genug Insulin im Reservoir für den Bolus</string>
     <string name="extendedbolusdeliveryerror">Fehler bei der Abgabe eines verzögerten Bolus</string>
+    <string name="insightpump_shortname">Sight</string>
     <string name="insightpump">Insight Pumpe</string>
     <string name="status_no_colon">Status</string>
     <string name="changed">Geändert</string>
@@ -1116,6 +1117,8 @@ Unerwartetes Verhalten.</string>
     <string name="extended_bolus">Verzögerter Bolus</string>
     <string name="multiwave_bolus">Multiwave-Bolus</string>
     <string name="eb_formatter">%1$.2f / %2$.2f U für %3$d min</string>
+    <string name="enable_tbr_over_notification">TBR-Vorrüber-Benachrichtigung aktivieren\n(Pumpeneinstellung)</string>
+    <string name="disable_tbr_over_notification">TBR-Vorrüber-Benachrichtigung deaktivieren\n(Pumpeneinstellung)</string>
     <string name="refresh">Aktualisieren</string>
     <string name="description_pump_insight_local">Pumpen-Integration für Accu-Chek Insight Pumpen</string>
     <string name="not_inserted">Nicht eingesetzt</string>
