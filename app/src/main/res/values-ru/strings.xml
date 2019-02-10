@@ -553,6 +553,11 @@
     <string name="enablesuperbolus">активировать суперболюс</string>
     <string name="enablesuperbolus_summary">активировать возможность суперболюса в мастере. не активируйте если не знаете что это. МОЖЕТ ВЫЗВАТЬ ПЕРЕДОЗИРОВКУ ИНСУЛИНА ЕСЛИ ИСПОЛЬЗУЕТСЯ ВСЛЕПУЮ</string>
     <string name="show_statuslights">Показать индикаторы состояния на главном экране</string>
+    <string name="show_statuslights_summary">Включить на главном экране индикаторы отработанного времени для канюли помпы, инсулина, сенсора, резервуара, а также показать уровень аккумулятора.</string>
+    <string name="statuslights_res_warning">Порог уровня наполненности резервуара для оповещения [ед.]</string>
+    <string name="statuslights_res_critical">Порог критического уровня наполненности резервуара [U]</string>
+    <string name="statuslights_bat_warning">Порог предупреждения о разрядке батареи [%]</string>
+    <string name="statuslights_bat_critical">Порог предупреждения о критическом уровне разрядки батареи [%]</string>
     <string name="iob">IOB акт инс</string>
     <string name="cob">акт углев</string>
     <string name="virtualpump_firmware_label">прошивка</string>
@@ -707,7 +712,10 @@
     <string name="btwatchdog_title">Дежурный режим Watchdog</string>
     <string name="btwatchdog_summary">Выключает bluetooth телефона на одну секунду, если подключение к помпе невозможно. Это помогает на тех телефонах, где зависает модуль bluetooth.</string>
     <string name="DexcomG5">Приложение Dexcom (пропатченное)</string>
+    <string name="DexcomG6">Приложение Dexcom G6 (пропатченное)</string>
+    <string name="eversense">Приложение Eversense (пропатченное)</string>
     <string name="dexcomg5_nsupload_title">Загрузить данные СК в Nightscout</string>
+    <string name="bgsource_upload">Параметры загрузки СК</string>
     <string name="wear_detailed_delta_title">Показать подробно дельту</string>
     <string name="wear_detailed_delta_summary">Показать дельту еще с одним десятичным знаком</string>
     <string name="smbmaxminutes_summary">Верхний лимит минут базала на SMB</string>
