@@ -44,6 +44,8 @@
     <string name="description_sensitivity_oref1">Чувствительность рассчитывается на основе данных за прошедшие 8 часов и (неусвоенные) углеводы не учитываются после времени указанного в настройках. Плагин также вычисляет UAM.</string>
     <string name="description_sensitivity_weighted_average">Чувствительность рассчитывается как средневзвешенное от отклонений (deviations). Более поздние отклонения имеют больший вес. Минимальное усвоение углеводов рассчитывается на основе макс времени усвоения углеводов в настройках. Этот алгоритм быстрее всего отслеживает изменения чувствительности.</string>
     <string name="description_source_dexcom_g5">Получать данные гликемии от пропатченного приложения Dexcom G5.</string>
+    <string name="description_source_dexcom_g6">Получать данные гликемии от пропатченного приложения Dexcom G6.</string>
+    <string name="description_source_eversense">Получать данные гликемии от пропатченного приложения Eversense.</string>
     <string name="description_source_glimp">Получать данные гликемии от Glimp.</string>
     <string name="description_source_mm640g">Получать данные гликемии от 600SeriesAndroidUploader.</string>
     <string name="description_source_ns_client">Получать данные гликемии с сайта Nightscout</string>
@@ -408,6 +410,7 @@
     <string name="array_of_elements">Массив %1$d элементов. \nActual актуальная величина:</string>
     <string name="openapsma_autosensdata_label">данные autosens</string>
     <string name="openapsma_scriptdebugdata_label">отладка скрипта</string>
+    <string name="openapsama_useautosens">Пользоваться функцией Autosens</string>
     <string name="refresheventsfromnightscout">обновить данные из NS</string>
     <string name="deletefuturetreatments">Удалить назначения из будущего</string>
     <string name="eatingsoon">Близкий прием пищи</string>
@@ -549,6 +552,7 @@
     <string name="insulin_shortname">ИНС</string>
     <string name="enablesuperbolus">активировать суперболюс</string>
     <string name="enablesuperbolus_summary">активировать возможность суперболюса в мастере. не активируйте если не знаете что это. МОЖЕТ ВЫЗВАТЬ ПЕРЕДОЗИРОВКУ ИНСУЛИНА ЕСЛИ ИСПОЛЬЗУЕТСЯ ВСЛЕПУЮ</string>
+    <string name="show_statuslights">Показать индикаторы состояния на главном экране</string>
     <string name="iob">IOB акт инс</string>
     <string name="cob">акт углев</string>
     <string name="virtualpump_firmware_label">прошивка</string>
