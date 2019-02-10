@@ -781,6 +781,7 @@
     <string name="combo_error_bolus_verification_failed">Подача болюса и проверка истории помпы не состоялись, пожалуйста проверьте помпу. Если болюс был подан, он будет добавлен в назначения во время следующего соединения с помпой.</string>
     <string name="combo_reservoir_level_insufficient_for_bolus">В резервуаре недостаточно инсулина для болюса</string>
     <string name="extendedbolusdeliveryerror">Подача пролонгированного болюса не состоялась</string>
+    <string name="insightpump_shortname">Поле обзора</string>
     <string name="insightpump">Помпа Insight</string>
     <string name="status_no_colon">Состояние</string>
     <string name="changed">Изменено</string>
@@ -855,6 +856,7 @@
     <string name="data_choices">Отбор данных</string>
     <string name="fabric_upload">Загрузка отчета для разработчиков</string>
     <string name="allow_automated_crash_reporting">Разрешить отправлять сообщения о неполадках и данные об использовании опций разработчикам при помощи сервиса fabric.io.</string>
+    <string name="g5appnotdetected">Пожалуйста, обновите приложение Dexcom до поддерживаемой версии</string>
     <string name="start_activity_tt">Включить временную цель TT Нагрузка</string>
     <string name="start_eating_soon_tt">Включить временную цель TT Скорый прием пищи</string>
     <string name="temptargetshort">Временная цель (TT)</string>
@@ -1064,6 +1066,8 @@ Context | Edit Context</string>
     <string name="loop_openmode_min_change">Минимальный запрос на изменения [%]</string>
     <string name="loop_openmode_min_change_summary">Алгоритм Ипж выдаст всплывающее окно с запросом на новые изменения, только если изменение больше, чем это значение. Значение по умолчанию — 20%</string>
     <string name="pairfirst">Выполните сопряжение помпы с телефоном!</string>
+    <string name="searching_for_devices">Поиск устройств…</string>
+    <string name="please_wait">Подождите…</string>
     <string name="profile_total">== ∑  %1$s ед</string>
     <string name="profile_ins_units_per_hout">Ед/ч</string>
     <string name="profile_carbs_per_unit">г/ед</string>
