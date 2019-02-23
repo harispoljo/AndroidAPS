@@ -1,10 +1,14 @@
 package info.nightscout.androidaps.plugins.Overview.Dialogs;
 
 import android.app.Activity;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 import android.text.Editable;
@@ -62,6 +66,8 @@ import info.nightscout.androidaps.plugins.IobCobCalculator.CobInfo;
 import info.nightscout.androidaps.plugins.IobCobCalculator.IobCobCalculatorPlugin;
 import info.nightscout.androidaps.plugins.IobCobCalculator.events.EventAutosensCalculationFinished;
 import info.nightscout.androidaps.plugins.Loop.LoopPlugin;
+import info.nightscout.androidaps.plugins.Overview.OverviewPlugin;
+import info.nightscout.androidaps.plugins.Overview.notifications.NotificationStore;
 import info.nightscout.androidaps.plugins.Treatments.TreatmentsPlugin;
 import info.nightscout.androidaps.queue.Callback;
 import info.nightscout.utils.BolusWizard;
@@ -76,6 +82,8 @@ import info.nightscout.utils.ToastUtils;
 public class WizardDialog extends DialogFragment implements OnClickListener, CompoundButton.OnCheckedChangeListener, Spinner.OnItemSelectedListener {
     private static Logger log = LoggerFactory.getLogger(WizardDialog.class);
 
+    private AlarmManager alarmMgr;
+    private PendingIntent alarmIntent;
     Button okButton;
     TextView bg;
     TextView bgInsulin;
@@ -101,6 +109,7 @@ public class WizardDialog extends DialogFragment implements OnClickListener, Com
     CheckBox cobCheckbox;
     TextView cob;
     TextView cobInsulin;
+    CheckBox carbTimeCheckbox;
 
     NumberPicker editBg;
     NumberPicker editCarbs;
@@ -119,6 +128,13 @@ public class WizardDialog extends DialogFragment implements OnClickListener, Com
     //one shot guards
     private boolean accepted;
     private boolean okClicked;
+
+    public class AlarmReceiver extends BroadcastReceiver {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            OverviewPlugin.getPlugin().notificationStore.add()
+        }
+    }
 
     public WizardDialog() {
         super();
@@ -245,6 +261,7 @@ public class WizardDialog extends DialogFragment implements OnClickListener, Com
         bolusIobCheckbox = (CheckBox) view.findViewById(R.id.treatments_wizard_bolusiobcheckbox);
         basalIobCheckbox = (CheckBox) view.findViewById(R.id.treatments_wizard_basaliobcheckbox);
         superbolusCheckbox = (CheckBox) view.findViewById(R.id.treatments_wizard_sbcheckbox);
+        carbTimeCheckbox = (CheckBox) view.findViewById(R.id.treatments_wizard_alarmcheckbox);
         loadCheckedStates();
 
         bgCheckbox.setOnCheckedChangeListener(this);
@@ -254,6 +271,7 @@ public class WizardDialog extends DialogFragment implements OnClickListener, Com
         basalIobCheckbox.setOnCheckedChangeListener(this);
         bolusIobCheckbox.setOnCheckedChangeListener(this);
         superbolusCheckbox.setOnCheckedChangeListener(this);
+        carbTimeCheckbox.setOnCheckedChangeListener(this);
 
         profileSpinner = (Spinner) view.findViewById(R.id.treatments_wizard_profile);
         profileSpinner.setOnItemSelectedListener(this);
@@ -409,6 +427,14 @@ public class WizardDialog extends DialogFragment implements OnClickListener, Com
                                             }
                                         });
                                     } else {
+                                        if(carbTimeCheckbox.isChecked()){
+                                            alarmMgr = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+                                            Intent intent = new Intent(context, AlarmReceiver.class);
+                                            alarmIntent = PendingIntent.getBroadcast(context, 0, intent, 0);
+                                            alarmMgr.set(AlarmManager.ELAPSED_REALTIME_WAKEUP,
+                                                    SystemClock.elapsedRealtime() +
+                                                            carbTime * 1000, alarmIntent);
+                                        }
                                         TreatmentsPlugin.getPlugin().addToHistoryTreatment(detailedBolusInfo, false);
                                     }
                                     FabricPrivacy.getInstance().logCustom(new CustomEvent("Wizard"));
