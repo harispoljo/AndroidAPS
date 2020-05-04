@@ -14,7 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import info.nightscout.androidaps.setupwizard.SWTextValidator;
-import info.nightscout.utils.SP;
+import info.nightscout.androidaps.utils.SP;
 
 
 public class SWEditString extends SWItem {
@@ -32,19 +32,19 @@ public class SWEditString extends SWItem {
         Context context = layout.getContext();
 
         TextView l = new TextView(context);
-        l.setId(layout.generateViewId());
+        l.setId(View.generateViewId());
         l.setText(label);
         l.setTypeface(l.getTypeface(), Typeface.BOLD);
         layout.addView(l);
 
         TextView c = new TextView(context);
-        c.setId(layout.generateViewId());
+        c.setId(View.generateViewId());
         c.setText(comment);
         c.setTypeface(c.getTypeface(), Typeface.ITALIC);
         layout.addView(c);
 
         EditText editText = new EditText(context);
-        editText.setId(layout.generateViewId());
+        editText.setId(View.generateViewId());
         editText.setInputType(InputType.TYPE_CLASS_TEXT);
         editText.setMaxLines(1);
         editText.setText(SP.getString(preferenceId, ""));

@@ -20,13 +20,6 @@ public interface Intents {
     String ACTION_URGENT_ALARM = "info.nightscout.client.URGENT_ALARM";
     String ACTION_CLEAR_ALARM = "info.nightscout.client.CLEAR_ALARM";
 
-
-    // App -> NSClient
-    String ACTION_DATABASE = "info.nightscout.client.DBACCESS";
-    String ACTION_RESTART = "info.nightscout.client.RESTART";
-    String ACTION_RESEND = "info.nightscout.client.RESEND";
-    String ACTION_ACK_ALARM = "info.nightscout.client.ACK_ALARM";
-
     // xDrip -> App
     String RECEIVER_PERMISSION = "com.eveningoutpost.dexdrip.permissions.RECEIVE_BG_ESTIMATE";
 
@@ -48,7 +41,9 @@ public interface Intents {
 
     String GLIMP_BG = "it.ct.glicemia.ACTION_GLUCOSE_MEASURED";
 
-    String DEXCOMG5_BG = "com.dexcom.cgm.DATA";
+    String DEXCOM_BG = "com.dexcom.cgm.EXTERNAL_BROADCAST";
+    String EVERSENSE_BG = "com.senseonics.AndroidAPSEventSubscriber.BROADCAST";
 
     String POCTECH_BG = "com.china.poctech.data";
+    String TOMATO_BG = "com.fanqies.tomatofn.BgEstimate";
 }

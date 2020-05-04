@@ -3,6 +3,8 @@ package info.nightscout.androidaps.setupwizard.elements;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import androidx.annotation.StringRes;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,8 +16,9 @@ import java.util.concurrent.TimeUnit;
 import info.nightscout.androidaps.MainApp;
 import info.nightscout.androidaps.events.EventPreferenceChange;
 import info.nightscout.androidaps.logging.L;
+import info.nightscout.androidaps.plugins.bus.RxBus;
 import info.nightscout.androidaps.setupwizard.events.EventSWUpdate;
-import info.nightscout.utils.SP;
+import info.nightscout.androidaps.utils.SP;
 
 public class SWItem {
     private static Logger log = LoggerFactory.getLogger(SWItem.class);
@@ -37,7 +40,8 @@ public class SWItem {
         RADIOBUTTON,
         PLUGIN,
         BUTTON,
-        FRAGMENT
+        FRAGMENT,
+        UNITNUMBER
     }
 
     Type type;
@@ -65,12 +69,12 @@ public class SWItem {
         return type;
     }
 
-    public SWItem label(int label) {
+    public SWItem label(@StringRes int label) {
         this.label = label;
         return this;
     }
 
-    public SWItem comment(int comment) {
+    public SWItem comment(@StringRes int comment) {
         this.comment = comment;
         return this;
     }
@@ -81,7 +85,7 @@ public class SWItem {
     }
 
     public static LinearLayout generateLayout(View view) {
-        LinearLayout layout = (LinearLayout) view.findViewById(view.getId());
+        LinearLayout layout = (LinearLayout) view;
         layout.removeAllViews();
         return layout;
     }
@@ -97,8 +101,8 @@ public class SWItem {
             public void run() {
                 if (L.isEnabled(L.CORE))
                     log.debug("Firing EventPreferenceChange");
-                MainApp.bus().post(new EventPreferenceChange(preferenceId));
-                MainApp.bus().post(new EventSWUpdate());
+                RxBus.INSTANCE.send(new EventPreferenceChange(preferenceId));
+                RxBus.INSTANCE.send(new EventSWUpdate(false));
                 scheduledEventPost = null;
             }
         }
